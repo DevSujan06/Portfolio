@@ -1,0 +1,42 @@
+/*Custom css goes here*/
+
+.logo-image {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+
+.photo-image {
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+}
+
+
+.navstyle {
+
+    height: 35px;
+    padding: 0%;
+    background-color: rgb(165 194 218 / 40%);
+}
+
+.footer-text {
+    font-size: large;
+}
+
+body {
+    background-image: url(../Assets/images/background.jpg);
+    color: white;
+    background-size: cover;
+}
+
+a {
+    color: antiquewhite;
+}
+
+
+.navbar {
+    background-color: white;
+}

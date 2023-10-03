@@ -1,0 +1,42 @@
+<%-include partials/header.ejs%>
+<%-include partials/main_nav.ejs%>
+  <!--Main Nav Navigation-->
+  
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to the <%= title %> Page</h1> 
+    
+    </div>
+    <section>
+      <h2>Contact Information</h2>
+      <p>Email: <a href="mailto:contact@example.com">chaudharysujan544@gmail.com</a></p>
+      <p>Phone: 4379735839</p>
+      <p>Address: 263 Pharmacy avenue, toronto ON</p>
+  </section>
+  <section>
+    <h2>Contact Form</h2>
+    <form action="submit.php" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+  </main>
+  
+   <!--<h1><%= title %></h1>-->
+   <!--<p>Welcome to <%= title %></p>-->
+   <!--Script section-->
+   
+   <%-include partials/bottom_nav.ejs%>
+   <%-include partials/footer.ejs%>
+
+
+
+

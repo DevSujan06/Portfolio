@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-lg navbar-light ps-1">
+  <!--<div class="container-fluid">-->
+  <div class="ps-1">
+    <img src="Assets/images/Logo1.png" alt="Logo1" class="logo-image">
+  </div>
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <% if(title=="Home" ){%>
+        <li class="nav-item active">
+          <%}else{%>
+        <li class="nav-item">
+          <%}%>
+            <a class="nav-link active" aria-current="page" href="/home"><i
+                class="fa-solid fa-house-chimney me-2"></i>Home</a>
+        </li>
+        <% if(title=="Home" ){%>
+          <li class="nav-item active">
+            <%}else{%>
+          <li class="nav-item">
+            <%}%>
+              <a class="nav-link active" aria-current="page" href="/about"><i
+                  class="fa-solid fa-address-card me-2"></i>About Me</a>
+          </li>
+          <% if(title=="Home" ){%>
+            <li class="nav-item active">
+              <%}else{%>
+            <li class="nav-item">
+              <%}%>
+                <a class="nav-link active" aria-current="page" href="/projects"><i
+                    class="fa-brands fa-product-hunt me-2"></i>Projects</a>
+            </li>
+            <% if(title=="Home" ){%>
+              <li class="nav-item active">
+                <%}else{%>
+              <li class="nav-item">
+                <%}%>
+                  <a class="nav-link active" aria-current="page" href="/services"><i
+                      class="fa-brands fa-servicestack me-2"></i>Services</a>
+              </li>
+              <% if(title=="Home" ){%>
+                <li class="nav-item active">
+                  <%}else{%>
+                <li class="nav-item">
+                  <%}%>
+                    <a class="nav-link active" aria-current="page" href="/contact"><i
+                        class="fa-solid fa-address-book me-2"></i>Contact Me</a>
+                </li>
+
+
+                <!--</div>-->
+  </div>
+
+</nav>
